@@ -42,6 +42,7 @@ acceleration = (float)0.5 * acceleration * time2ndpow + velocity * time + positi
 // properly need a better name for the float
 float validationcheck(string NameOfVariable)
 {
+    Console.WriteLine("sæt en verdi for: " + NameOfVariable);
     float tal = 0;
     bool check = false;
     while (check == false)
