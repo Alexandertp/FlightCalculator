@@ -7,6 +7,8 @@ bool accelerationDecided = false;
 while (true)
 {
     velocity = validationcheck("Velocity");
+    acceleration = validationcheck("Acceleration");
+    distance = validationcheck("Distance");
 }
 
 
