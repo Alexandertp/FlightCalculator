@@ -3,13 +3,16 @@ Console.WriteLine("Hello, World!");
 float velocity = 0;
 float distance = 0;
 float acceleration = 0;
-bool accelerationDecided = false;
-while (true)
-{
+float time = 0;
+float position = 0;
+//bool accelerationDecided = false;
+
     velocity = validationcheck("Velocity");
     acceleration = validationcheck("Acceleration");
     distance = validationcheck("Distance");
-}
+    time = validationcheck("time");
+    position = validationcheck("position");
+
 
 
 
@@ -33,12 +36,11 @@ while (true)
 } */
 
 
-float time = 0;
-float position = 0;
+
 float time2ndpow = (float)Math.Pow(time, 2);
 velocity = distance / time;
 acceleration = (float)0.5 * acceleration * time2ndpow + velocity * time + position;
-
+Console.WriteLine(acceleration);
 // properly need a better name for the float
 float validationcheck(string NameOfVariable)
 {
