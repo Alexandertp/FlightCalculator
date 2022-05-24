@@ -4,7 +4,14 @@ float velocity = 0;
 float distance = 0;
 float acceleration = 0;
 bool accelerationDecided = false;
-while (accelerationDecided == false)
+while (true)
+{
+    velocity = validationcheck("Velocity");
+}
+
+
+
+/*while (accelerationDecided == false)
 {
     try
     {
@@ -21,7 +28,7 @@ while (accelerationDecided == false)
         Console.WriteLine("Du har fucket et eller andet op, min kode er perfekt, det er en ommer");
         accelerationDecided = false;
     }
-}
+} */
 
 
 float time = 0;
@@ -31,7 +38,7 @@ velocity = distance / time;
 acceleration = (float)0.5 * acceleration * time2ndpow + velocity * time + position;
 
 // properly need a better name for the float
-float validationcheck()
+float validationcheck(string NameOfVariable)
 {
     float tal = 0;
     bool check = false;
@@ -53,5 +60,6 @@ float validationcheck()
             check = false;
         }
     }
+    Console.WriteLine(NameOfVariable + " er sat til: " + tal);
     return tal;
 }
