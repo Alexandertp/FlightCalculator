@@ -3,25 +3,14 @@ Console.WriteLine("Hello, World!");
 float velocity = 0;
 float distance = 0;
 float acceleration = 0;
-bool accelerationDecided = false;
-while (accelerationDecided == false)
-{
-    try
-    {
-        acceleration = float.Parse(Console.ReadLine());
-        accelerationDecided = true;
-    }
-    catch (InvalidCastException)
-    {
-        Console.WriteLine("Deeeet vidst ikke et tal det der, prøv igen");
-        accelerationDecided = false;
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine("Du har fucket et eller andet op, min kode er perfekt, det er en ommer");
-        accelerationDecided = false;
-    }
-}
+
+Console.WriteLine("indtast distancen");
+distance = validationcheck();
+Console.WriteLine("intast accelerationen");
+acceleration = validationcheck();
+Console.WriteLine("intast velocity");
+velocity = validationcheck();
+Console.WriteLine(velocity + " " + distance + " " + acceleration);
 
 
 float time = 0;
