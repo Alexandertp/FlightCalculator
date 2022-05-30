@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jona70k6\\Documents\\FlightCalculator\\FlightCalculator.csproj": {}
+    "C:\\Users\\sande\\source\\repos\\FlightCalculator\\FlightCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jona70k6\\Documents\\FlightCalculator\\FlightCalculator.csproj": {
+    "C:\\Users\\sande\\source\\repos\\FlightCalculator\\FlightCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jona70k6\\Documents\\FlightCalculator\\FlightCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\sande\\source\\repos\\FlightCalculator\\FlightCalculator.csproj",
         "projectName": "FlightCalculator",
-        "projectPath": "C:\\Users\\jona70k6\\Documents\\FlightCalculator\\FlightCalculator.csproj",
-        "packagesPath": "C:\\Users\\jona70k6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jona70k6\\Documents\\FlightCalculator\\obj\\",
+        "projectPath": "C:\\Users\\sande\\source\\repos\\FlightCalculator\\FlightCalculator.csproj",
+        "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sande\\source\\repos\\FlightCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jona70k6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sande\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
