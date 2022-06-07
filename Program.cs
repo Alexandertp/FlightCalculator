@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-float velocity = 0;
+﻿float velocity = 0;
 float distance = 0;
 float acceleration = 0;
 float time = 0;
